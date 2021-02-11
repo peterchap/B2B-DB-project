@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 
 dbdirectory= 'E:/'
 directory = 'E:/Company house/'
-file = 'BasicCompanyDataAsOneFile-2021-01-01.csv'
+file = 'BasicCompanyDataAsOneFile-2021-02-01.csv'
 db = 'companyhouse.db'
 tablename = 'ch_active_companies'
 

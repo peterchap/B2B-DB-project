@@ -390,7 +390,7 @@ class StringGrouper(object):
         return True
 
 directory1 = 'E:/Acquirze/'
-file1 ='acquirz_all_cleaned_060720.csv'
+file1 ='ESB_FEB05_reformat.csv'
 dbdirectory= 'E:/'
 db = 'companyhouse.db'
 tablename = 'ch_active_companies'
