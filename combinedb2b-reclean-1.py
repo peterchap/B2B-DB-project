@@ -59,7 +59,7 @@ df.drop_duplicates(subset='Email', keep='first',inplace=True)
 df = df.reset_index(drop=True)
 #df.drop('is_valid_email',axis =1,inplace=True)
 print('SQL Input File', df.shape)
-dfx = df[['List_ID','Source_URL', 'Title',  'First_Name', 'Last_Name', 'Email', 'Domain']]
+df = df[['List_ID','Source_URL', 'Title',  'First_Name', 'Last_Name', 'Email', 'Domain']]
 print(df.columns)
 
 dfx.astype({ 'Email' : str, 'Domain' : str})
